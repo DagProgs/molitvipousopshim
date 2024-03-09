@@ -65,6 +65,58 @@ workbox.precaching.precacheAndRoute([
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
+    "url": "img/book.svg",
+    "revision": "0f7511b6b6204d3ebc3ad5a91352a677"
+  },
+  {
+    "url": "img/home.svg",
+    "revision": "a7770a8ce295444b15e45540698e8ce2"
+  },
+  {
+    "url": "img/information-book.svg",
+    "revision": "3f2c628af70ad509f9632430ab1eb09d"
+  },
+  {
+    "url": "img/information.svg",
+    "revision": "549ba869256f0146f4e4fa023aa8ecf6"
+  },
+  {
+    "url": "img/man-muslim.svg",
+    "revision": "ed4bc2bd2b728e9c100032447e88da9f"
+  },
+  {
+    "url": "img/man.webp",
+    "revision": "673ff7fabf7be32f11666ca8922d5e1b"
+  },
+  {
+    "url": "img/next.svg",
+    "revision": "e19cbe536a6e15b58e46d0ed05915888"
+  },
+  {
+    "url": "img/prayer-beads.svg",
+    "revision": "b743a8d903efcbcaf8b74e2b8451e283"
+  },
+  {
+    "url": "img/texthome.svg",
+    "revision": "a7770a8ce295444b15e45540698e8ce2"
+  },
+  {
+    "url": "img/woman-muslim.svg",
+    "revision": "69be833ec50dd8bfe821b39f954c1c1d"
+  },
+  {
+    "url": "img/woman.webp",
+    "revision": "cdbf00fa0573146dc72f016b6bb7eec9"
+  },
+  {
+    "url": "img/YaSin.png",
+    "revision": "f88c13aeb5a9a878ca039dc187865344"
+  },
+  {
+    "url": "img/zikr.webp",
+    "revision": "3ce9033bf118aa3f373ab06a331ab25e"
+  },
+  {
     "url": "manifest.json",
     "revision": "239a9b3ff9f8e5f9a7d634284b8464eb"
   },
