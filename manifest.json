@@ -47,7 +47,7 @@
       "type": "image/png"
     }
   ],
-  "scope": "https://dagprogs.github.io/molitvipousopshim/,
+  "scope": "https://dagprogs.github.io/molitvipousopshim/",
   "id": "molitvipousopshim",
   "start_url": "https://dagprogs.github.io/molitvipousopshim/",
   "display": "standalone",
