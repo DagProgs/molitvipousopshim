@@ -45,12 +45,8 @@ workbox.precaching.precacheAndRoute([
     "revision": "cc0dc418ef16661a890625d61ed721d4"
   },
   {
-    "url": "css/reset.css",
-    "revision": "e664e4692436549b260df8d6fe4b09ef"
-  },
-  {
     "url": "css/style.css",
-    "revision": "f90f57ae8e9212c5042ad0a8f6b40e19"
+    "revision": "cc4f6385ea5c7820f239184b84ffc09b"
   },
   {
     "url": "js/custom.js",
