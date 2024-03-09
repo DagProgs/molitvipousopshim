@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+    <title>Молитвы по усопшим</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header></header>
+        <main>
+            <div class="tab">
+            <div class="box" id="man">
+                <p>Талкин (м.р.)</p>
+                <img src="../assets/img/man.webp" alt="">
+            </div>
+            <div class="box" id="woman">
+                <p>Талкин (ж.р.)</p>
+                <img src="../assets/img/woman.webp" alt="">
+            </div>
+            <div class="box" id="opis">
+                <p>Молитвы по усопшим</p>
+                <h1>В разработке</h1>
+            </div>
+            <div class="box" id="book">
+                <p>Ясин</p>
+                <img src="../assets/img/YaSin.png" alt="">
+            </div>
+            <div class="box" id="chetki">
+                <p>Зикр</p>
+                <img src="../assets/img/zikr.webp" alt="">
+            </div>
+        </div>
+            
+        </main>
+        <footer class="footer">
+            <div class="tabs">
+                <input type="radio" name="tab" id="tabs_man" onClick='location.href="talkin.html#man"'>
+                <label for="tabs_man"><img src="img/man-muslim.svg"></label>
+                
+                <input type="radio" name="tab" id="tabs_woman" onClick='location.href="talkin.html#woman"'>
+                <label for="tabs_woman"><img src="img/woman-muslim.svg"></label>
+                
+                <input type="radio" name="tab" id="tabs_opis" checked="checked" onClick='location.href="talkin.html#opis"'>
+                <label for="tabs_opis"><img src="img/information.svg"></label>
+                
+                <input type="radio" name="tab" id="tabs_book" onClick='location.href="talkin.html#book"'>
+                <label for="tabs_book"><img src="img/book.svg"></label>
+
+                <input type="radio" name="tab" id="tabs_chetki" onClick='location.href="talkin.html#chetki"'>
+                <label for="tabs_chetki"><img src="img/prayer-beads.svg"></label>
+                
+                    <div class="bubble"></div>
+                    
+                    <div class="liquid">
+                        <div class="liquid-tab">
+                            <span class="active"></span>
+                        </div>
+                    </div>
+        
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/custom.js"></script>
+</body>
+</html>

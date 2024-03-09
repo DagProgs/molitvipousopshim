@@ -1,0 +1,33 @@
+@import url("../assets/css/reset.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #16213e;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main img {
+    background-color: #2f5679;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    width: 100px;
+    height: auto;
+}
