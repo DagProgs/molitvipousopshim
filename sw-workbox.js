@@ -22,7 +22,11 @@ workbox.core.clientsClaim();
 workbox.precaching.precacheAndRoute([
   {
     "url": "index.html",
-    "revision": "c66673f81f342884959017195e12f4cb"
+    "revision": "32e8af617c728becc1a0336d7d539112"
+  },
+  {
+    "url": "talkin.html",
+    "revision": "fba7d1ba94575dd309ca2709b2f16461"
   },
   {
     "url": "main.js",
@@ -37,88 +41,32 @@ workbox.precaching.precacheAndRoute([
     "revision": "cd1ce3e306bf57f272364d1cc0249d6e"
   },
   {
-    "url": "css/style.css",
+    "url": "css/main.css",
     "revision": "cc0dc418ef16661a890625d61ed721d4"
   },
   {
-    "url": "manifest.json",
-    "revision": "8c7a95b68c31b8e0c609fda9081b9422"
-  },
-  {
-    "url": "assets/talkin.html",
-    "revision": "d23c065b8d990098a41f67471825083b"
-  },
-  {
-    "url": "assets/css/reset.css",
+    "url": "css/reset.css",
     "revision": "e664e4692436549b260df8d6fe4b09ef"
   },
   {
-    "url": "assets/css/style.css",
+    "url": "css/style.css",
     "revision": "f90f57ae8e9212c5042ad0a8f6b40e19"
   },
   {
-    "url": "assets/js/custom.js",
+    "url": "js/custom.js",
     "revision": "01b99e4e4f4422ef8c03d882392ad648"
   },
   {
-    "url": "assets/js/jquery-1.4.1.min.js",
+    "url": "js/jquery-1.4.1.min.js",
     "revision": "9eb33df93b21325142088527103882d2"
   },
   {
-    "url": "assets/js/script.js",
+    "url": "js/script.js",
     "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
-    "url": "assets/img/book.svg",
-    "revision": "0f7511b6b6204d3ebc3ad5a91352a677"
-  },
-  {
-    "url": "assets/img/home.svg",
-    "revision": "a7770a8ce295444b15e45540698e8ce2"
-  },
-  {
-    "url": "assets/img/information-book.svg",
-    "revision": "3f2c628af70ad509f9632430ab1eb09d"
-  },
-  {
-    "url": "assets/img/information.svg",
-    "revision": "549ba869256f0146f4e4fa023aa8ecf6"
-  },
-  {
-    "url": "assets/img/man-muslim.svg",
-    "revision": "ed4bc2bd2b728e9c100032447e88da9f"
-  },
-  {
-    "url": "assets/img/man.webp",
-    "revision": "673ff7fabf7be32f11666ca8922d5e1b"
-  },
-  {
-    "url": "assets/img/next.svg",
-    "revision": "e19cbe536a6e15b58e46d0ed05915888"
-  },
-  {
-    "url": "assets/img/prayer-beads.svg",
-    "revision": "b743a8d903efcbcaf8b74e2b8451e283"
-  },
-  {
-    "url": "assets/img/texthome.svg",
-    "revision": "a7770a8ce295444b15e45540698e8ce2"
-  },
-  {
-    "url": "assets/img/woman-muslim.svg",
-    "revision": "69be833ec50dd8bfe821b39f954c1c1d"
-  },
-  {
-    "url": "assets/img/woman.webp",
-    "revision": "cdbf00fa0573146dc72f016b6bb7eec9"
-  },
-  {
-    "url": "assets/img/YaSin.png",
-    "revision": "f88c13aeb5a9a878ca039dc187865344"
-  },
-  {
-    "url": "assets/img/zikr.webp",
-    "revision": "3ce9033bf118aa3f373ab06a331ab25e"
+    "url": "manifest.json",
+    "revision": "239a9b3ff9f8e5f9a7d634284b8464eb"
   },
   {
     "url": "assets/icons/icon-128x128.png",
