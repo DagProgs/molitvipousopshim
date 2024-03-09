@@ -42,7 +42,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "manifest.json",
-    "revision": "34a2d20368cf0f0970c102fb1770d2e8"
+    "revision": "8953fd342b354649bd662a398f7a115b"
   },
   {
     "url": "assets/talkin.html",

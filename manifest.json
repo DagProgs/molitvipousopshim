@@ -1,11 +1,11 @@
 {
-	"manifest_version": 6,
+	"manifest_version": 1,
   "lang": "ru",
   "dir": "ltr",
   "name": "Молитвы по усопшим",
   "short_name": "Молитвы по усопшим",
   "description": "Молитвы по усопшим",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "categories": ["молитвы", "religion", "prayer"],
   "icons": [
 	{
