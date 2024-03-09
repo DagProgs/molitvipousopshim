@@ -45,6 +45,10 @@ workbox.precaching.precacheAndRoute([
     "revision": "34a2d20368cf0f0970c102fb1770d2e8"
   },
   {
+    "url": "assets/talkin.html",
+    "revision": "0a9923aae009b2a3fe7871671f38ba3c"
+  },
+  {
     "url": "assets/css/reset.css",
     "revision": "e664e4692436549b260df8d6fe4b09ef"
   },
@@ -53,36 +57,16 @@ workbox.precaching.precacheAndRoute([
     "revision": "f90f57ae8e9212c5042ad0a8f6b40e19"
   },
   {
-    "url": "assets/icons/icon-128x128.png",
-    "revision": "e3119c5e842fe71442fbcab5240d21ca"
+    "url": "assets/js/custom.js",
+    "revision": "01b99e4e4f4422ef8c03d882392ad648"
   },
   {
-    "url": "assets/icons/icon-144x144.png",
-    "revision": "5bf0b1e79e5ac411de3cda6cdcfd48cc"
+    "url": "assets/js/jquery-1.4.1.min.js",
+    "revision": "9eb33df93b21325142088527103882d2"
   },
   {
-    "url": "assets/icons/icon-152x152.png",
-    "revision": "6eca45733c84e3112331cc3ec3cfd087"
-  },
-  {
-    "url": "assets/icons/icon-192x192.png",
-    "revision": "87c9908dc43575d0028217a28714f9c6"
-  },
-  {
-    "url": "assets/icons/icon-384x384.png",
-    "revision": "8909c62424de645dc391b63ef75b69aa"
-  },
-  {
-    "url": "assets/icons/icon-512x512.png",
-    "revision": "b92313ba2fafdf3e901564025b2a31ad"
-  },
-  {
-    "url": "assets/icons/icon-72x72.png",
-    "revision": "455463efa24bb0f7c59413959f70ddb3"
-  },
-  {
-    "url": "assets/icons/icon-96x96.png",
-    "revision": "60c0585719ebebb4877a59537966564d"
+    "url": "assets/js/script.js",
+    "revision": "d41d8cd98f00b204e9800998ecf8427e"
   },
   {
     "url": "assets/img/book.svg",
@@ -137,20 +121,36 @@ workbox.precaching.precacheAndRoute([
     "revision": "3ce9033bf118aa3f373ab06a331ab25e"
   },
   {
-    "url": "assets/js/custom.js",
-    "revision": "01b99e4e4f4422ef8c03d882392ad648"
+    "url": "assets/icons/icon-128x128.png",
+    "revision": "e3119c5e842fe71442fbcab5240d21ca"
   },
   {
-    "url": "assets/js/jquery-1.4.1.min.js",
-    "revision": "9eb33df93b21325142088527103882d2"
+    "url": "assets/icons/icon-144x144.png",
+    "revision": "5bf0b1e79e5ac411de3cda6cdcfd48cc"
   },
   {
-    "url": "assets/js/script.js",
-    "revision": "d41d8cd98f00b204e9800998ecf8427e"
+    "url": "assets/icons/icon-152x152.png",
+    "revision": "6eca45733c84e3112331cc3ec3cfd087"
   },
   {
-    "url": "assets/talkin.html",
-    "revision": "0a9923aae009b2a3fe7871671f38ba3c"
+    "url": "assets/icons/icon-192x192.png",
+    "revision": "87c9908dc43575d0028217a28714f9c6"
+  },
+  {
+    "url": "assets/icons/icon-384x384.png",
+    "revision": "8909c62424de645dc391b63ef75b69aa"
+  },
+  {
+    "url": "assets/icons/icon-512x512.png",
+    "revision": "b92313ba2fafdf3e901564025b2a31ad"
+  },
+  {
+    "url": "assets/icons/icon-72x72.png",
+    "revision": "455463efa24bb0f7c59413959f70ddb3"
+  },
+  {
+    "url": "assets/icons/icon-96x96.png",
+    "revision": "60c0585719ebebb4877a59537966564d"
   }
 ]);
 
