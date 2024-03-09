@@ -46,7 +46,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/talkin.html",
-    "revision": "a6ed9f0853b492c9b9375ba673b0c9eb"
+    "revision": "d23c065b8d990098a41f67471825083b"
   },
   {
     "url": "assets/css/reset.css",
