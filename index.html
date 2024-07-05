@@ -49,9 +49,9 @@
             </div>
         </main>
     </div>
-    <div id="imyModal" class="imodal">
-        <div class="imodal-content">
-            <span class="iclose">&times;</span>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
             <img src="screen.png" alt="">
             <p>
                 Для лучшего опыта использования, установите приложение на вашем устройстве. Нажмите кнопку
@@ -62,13 +62,13 @@
     <script>
         if (!localStorage.getItem('appInstalled') && !window.matchMedia('(display-mode: standalone)').matches && /iPhone|iPod/i.test(navigator.userAgent)) {
             // Открываем модальное окно только на устройствах iPhone
-            document.getElementById('imyModal').style.display = "block";
+            document.getElementById('myModal').style.display = "block";
             localStorage.setItem('appInstalled', 'true');
         }
 
         // Закрытие модального окна при нажатии на кнопку "Close"
-        document.getElementsByClassName("iclose")[0].onclick = function () {
-            document.getElementById('imyModal').style.display = "none";
+        document.getElementsByClassName("close")[0].onclick = function () {
+            document.getElementById('myModal').style.display = "none";
         }
     </script>
 
