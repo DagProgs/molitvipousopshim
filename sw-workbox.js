@@ -26,11 +26,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "manifest.json",
-    "revision": "2d55dc3dd6af38cb5749ba2ee4d84e4b"
+    "revision": "5c73a35291316b7b77fc793c6e45e836"
   },
   {
     "url": "css/style.css",
-    "revision": "73670ef1bc4fbe73132108abf65d7138"
+    "revision": "95c99fbdda862d61f592c15e11d1e901"
   },
   {
     "url": "main.js",
@@ -51,6 +51,10 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "update.js",
     "revision": "2e37a1e61c0f6c88bddbb61150536944"
+  },
+  {
+    "url": "js/jquery-3.7.1.min.js",
+    "revision": "c9a1b0aa0167c8a4df724d18d06814a8"
   },
   {
     "url": "pages/beads/beads.html",
