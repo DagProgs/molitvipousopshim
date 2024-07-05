@@ -107,90 +107,60 @@ body {
   font-size: 12px;
 }
 
-main {
+header {
   position: relative;
-}
-
-.main_container {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  padding: 0 15px;
-  background-color: #f1f1f1;
-}
-
-.left {
-  display: flex;
-  align-items: center;
-  width: 50vw;
-  height: auto;
-  padding-right: 5px;
-}
-.left img {
-  width: 150px;
-  height: 150px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #000000;
-}
-
-.right {
-  display: grid;
-  gap: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  width: 50vw;
-  height: auto;
-}
-.right img {
-  flex: 1;
-  width: 60px;
-  height: auto;
-  padding: 5px;
-  border-radius: 10px;
-  background-color: #ffffff;
-  border: 1px solid #8a8a8a;
-}
-
-.modal {
-  display: none;
-  position: fixed;
+  height: 60px;
   z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.9);
 }
 
-.modal-content {
-  margin: 15% auto;
-  padding: 20px;
-  width: 80%;
-  max-width: 600px;
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  height: 60px;
   background-color: #fff;
-  position: relative;
+  border-bottom: 1px solid #000;
+  padding: 0 15px 0 0;
 }
-
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
+.header_container h1 {
+  font-size: 1.8em;
   font-weight: bold;
 }
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+.header_container img {
+  width: 40px;
+  height: 40px;
 }
 
-.modal-content img {
-  width: 100%;
-  height: auto;
+.back_icon__header_text {
+  display: flex;
+  align-items: center;
 }
+
+.back_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+}
+.back_icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.book_icon__back_icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.book_icon__back_icon .back_icon {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
+.book_icon__back_icon .back_icon svg {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=pages.css.map */

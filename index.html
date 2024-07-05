@@ -1,53 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" href="css/style.css">
     <title>Молитвы по усопшим</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Молитвы по усопшим - Талкъин">
+    <meta name="keywords" content="молитвы, по усопшим, талкъин">
+    <meta name="robots" content="index,follow,noodp">
+    <meta name="googlebot" content="index,follow">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate">
+    <meta name="google-site-verification" content="verification_token">
+    <meta name="generator" content="WEB APP">
+    <meta content="website">
 	<link rel="manifest" href="manifest.json" />
-    <script async src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.8/pwacompat.min.js"
-        integrity="sha384-uONtBTCBzHKF84F6XvyC8S0gL8HTkAPeCyBNvfLfsqHh+Kd6s/kaS4BdmNQ5ktp1"
-        crossorigin="anonymous"></script>
-	
+    <script async src="pwacompat.min.js"></script>
+    <script defer src="update.js" type="module"></script>
 </head>
 
 <body>
-    <div class="wrapper">
-        
-        <main class="main">
-            <a href="talkin.html#opis">
-                <img src="img/next.svg" alt="">
-            </a>
+    <div class="app">
+        <main>
+            <div class="main_container">
+                <div class="left">
+                    <a href="pages/info/info.html">
+                        <img src="img/svg/information.svg" alt="">
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="pages/man/man.html">
+                        <img src="img/svg/man-muslim.svg" alt="">
+                    </a>
+                    <a href="pages/woman/woman.html">
+                        <img src="img/svg/woman-muslim.svg" alt="">
+                    </a>
+                    <a href="pages/book/book.html">
+                        <img src="img/svg/book.svg" alt="">
+                    </a>
+                    <a href="pages/beads/beads.html">
+                        <img src="img/svg/prayer-beads.svg" alt="">
+                    </a>
+                </div>
+            </div>
         </main>
+		
+
     </div>
-<script type="module">
 
-        import { Workbox } from 'https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-window.prod.mjs';
-
-        if ('serviceWorker' in navigator) {
-
-            const wb = new Workbox('sw-workbox.js');
-
-            wb.addEventListener('installed', event => {
-                if (event.isUpdate) {
-                    if (confirm(`Мы только что обновили версию приложения! Чтобы получить обновления, нажмите на кнопку OK.`)) {
-                        window.location.reload();
-                    }
-                } else {
-                    alert(`Приложение готово к работе в автономном режиме`)
-                }
-            });
-
-            wb.register();
+    <div id="imyModal" class="imodal">
+        <div class="imodal-content">
+            <span class="iclose">&times;</span>
+            <img src="screen.png" alt="">
+            <p>
+                Для лучшего опыта использования, установите приложение на вашем устройстве. Нажмите кнопку
+                "1-Поделиться" - "2-Добавить на главный экран" - "3-Добавить".
+            </p>
+        </div>
+    </div>
+    <script>
+        if (!localStorage.getItem('appInstalled') && !window.matchMedia('(display-mode: standalone)').matches && /iPhone|iPod/i.test(navigator.userAgent)) {
+            // Открываем модальное окно только на устройствах iPhone
+            document.getElementById('imyModal').style.display = "block";
+            localStorage.setItem('appInstalled', 'true');
         }
 
+        // Закрытие модального окна при нажатии на кнопку "Close"
+        document.getElementsByClassName("iclose")[0].onclick = function () {
+            document.getElementById('imyModal').style.display = "none";
+        }
     </script>
+
     <script type="text/javascript" src="runtime.js"></script>
     <script type="text/javascript" src="polyfills.js"></script>
     <script type="text/javascript" src="main.js"></script>
+
 </body>
 
 </html>
